@@ -851,7 +851,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3BF1EF238D995173D4656033 /* Pods-OSX.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -892,7 +892,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1F1A58BE683E3B5D77B59DA8 /* Pods-OSX.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
