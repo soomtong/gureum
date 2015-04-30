@@ -28,7 +28,7 @@
     NSString *current = versionInfo[@"current"];
     NSString *download = versionInfo[@"download"];
     NSString *note = versionInfo[@"note"];
-
+/*
     if (![recent isEqualToString:current] && download.length > 0) {
         NSString *fmt = @"현재 사용하고 있는 구름 입력기는 %@ 이고 최신 버전은 %@ 입니다. 업데이트는 로그아웃하거나 재부팅해야 적용됩니다.";
         if (note.length) {
@@ -37,6 +37,7 @@
         NSAlert *alert = [NSAlert alertWithMessageText:@"구름 입력기 업데이트 확인" defaultButton:@"확인" alternateButton:@"취소" otherButton:nil informativeTextWithFormat:fmt, current, recent];
         [alert beginSheetModalForWindow:nil modalDelegate:self didEndSelector:@selector(alertDidEnd:returnCode:contextInfo:) contextInfo:[download retain]];
     }
+ */
 }
 
 - (void)alertDidEnd:(NSAlert *)alert returnCode:(NSInteger)returnCode contextInfo:(void *)contextInfo {
