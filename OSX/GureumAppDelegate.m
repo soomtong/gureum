@@ -6,7 +6,7 @@
 //  Copyright 2011 youknowone.org. All rights reserved.
 //
 
-#import <Crashlytics/Crashlytics.h>
+//#import <Crashlytics/Crashlytics.h>
 #import "GureumAppDelegate.h"
 
 #import "CIMInputManager.h"
