@@ -37,6 +37,7 @@ NSString *kGureumInputSourceIdentifierHan3_2012Loose = @"org.youknowone.inputmet
 NSString *kGureumInputSourceIdentifierHan3FinalNoShift = @"org.youknowone.inputmethod.Gureum.han3finalnoshift";
 NSString *kGureumInputSourceIdentifierHan3_2014 = @"org.youknowone.inputmethod.Gureum.han3-2014";
 NSString *kGureumInputSourceIdentifierHan3_2015 = @"org.youknowone.inputmethod.Gureum.han3-2015";
+NSString *kGureumInputSourceIdentifierHan3_P3 = @"org.youknowone.inputmethod.Gureum.han3-p3";
 
 #import "RomanComposer.h"
 #import "HangulComposer.h"
@@ -87,6 +88,7 @@ NSDictionary *GureumInputSourceToHangulKeyboardIdentifierTable = nil;
                                                         @"3fs", kGureumInputSourceIdentifierHan3FinalNoShift,
                                                         @"3-2014", kGureumInputSourceIdentifierHan3_2014,
                                                         @"3-2015", kGureumInputSourceIdentifierHan3_2015,
+														@"3-p3", kGureumInputSourceIdentifierHan3_P3,
                                                         nil];
 }
 
