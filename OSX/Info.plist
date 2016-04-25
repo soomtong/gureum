@@ -7,7 +7,7 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleGetInfoString</key>
-	<string>${VERSION}, Copyright 2011-2015 Jeong YunWon</string>
+	<string>${VERSION}, Copyright 2011-2016 Jeong YunWon</string>
 	<key>CFBundleIconFile</key>
 	<string>Gureum.icns</string>
 	<key>CFBundleIdentifier</key>
@@ -458,6 +458,20 @@
 			<string>org.youknowone.inputmethod.Gureum.han3-2015</string>
 		</array>
 	</dict>
+	<key>Fabric</key>
+	<dict>
+		<key>APIKey</key>
+		<string>1b5d8443c3eabba778b0d97bff234647af846181</string>
+		<key>Kits</key>
+		<array>
+			<dict>
+				<key>KitInfo</key>
+				<dict/>
+				<key>KitName</key>
+				<string>Crashlytics</string>
+			</dict>
+		</array>
+	</dict>
 	<key>HIMHanjaWindowSettings</key>
 	<dict>
 		<key>fontName</key>
@@ -477,6 +491,8 @@
 	<string>CIMInputController</string>
 	<key>InputMethodServerPreferencesWindowControllerClass</key>
 	<string>GureumPreferencesWindowController</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.utilities</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>${MACOSX_DEPLOYMENT_TARGET}</string>
 	<key>LSUIElement</key>

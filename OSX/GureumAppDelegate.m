@@ -6,6 +6,9 @@
 //  Copyright 2011 youknowone.org. All rights reserved.
 //
 
+//#import <Fabric/Fabric.h>
+//#import <Crashlytics/Crashlytics.h>
+
 #import "GureumAppDelegate.h"
 
 #import "CIMInputManager.h"
@@ -17,6 +20,8 @@
 @synthesize menu;
 
 - (void)awakeFromNib {
+    //[Fabric with:@[CrashlyticsKit]];
+
     self->sharedInputManager = [[CIMInputManager alloc] init];
 
     NSDictionary *versionInfo = [[GureumAppDelegate sharedAppDelegate] getRecentVersion];
