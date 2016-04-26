@@ -15,29 +15,57 @@
 #define DEBUG_SHORTCUT FALSE
 
 NSString *kGureumInputSourceIdentifierQwerty = @"org.youknowone.inputmethod.Gureum.qwerty";
-NSString *kGureumInputSourceIdentifierDvorak = @"org.youknowone.inputmethod.Gureum.dvorak";
-NSString *kGureumInputSourceIdentifierDvorakQwertyCommand = @"org.youknowone.inputmethod.Gureum.dvorakq";
-NSString *kGureumInputSourceIdentifierColemak = @"org.youknowone.inputmethod.Gureum.colemak";
-NSString *kGureumInputSourceIdentifierColemakQwertyCommand = @"org.youknowone.inputmethod.Gureum.colemakq";
+// NSString *kGureumInputSourceIdentifierDvorak = @"org.youknowone.inputmethod.Gureum.dvorak";
+// NSString *kGureumInputSourceIdentifierDvorakQwertyCommand = @"org.youknowone.inputmethod.Gureum.dvorakq";
+// NSString *kGureumInputSourceIdentifierColemak = @"org.youknowone.inputmethod.Gureum.colemak";
+// NSString *kGureumInputSourceIdentifierColemakQwertyCommand = @"org.youknowone.inputmethod.Gureum.colemakq";
+
 NSString *kGureumInputSourceIdentifierHan2 = @"org.youknowone.inputmethod.Gureum.han2";
+NSString *kGureumInputSourceIdentifierHan2NoShift = @"org.youknowone.inputmethod.Gureum.han2noshift";
 NSString *kGureumInputSourceIdentifierHan2Classic = @"org.youknowone.inputmethod.Gureum.han2classic";
-NSString *kGureumInputSourceIdentifierHan3Final = @"org.youknowone.inputmethod.Gureum.han3final";
-NSString *kGureumInputSourceIdentifierHan3FinalLoose = @"org.youknowone.inputmethod.Gureum.han3finalloose";
+NSString *kGureumInputSourceIdentifierHan2N9256 = @"org.youknowone.inputmethod.Gureum.han2n9256";
+NSString *kGureumInputSourceIdentifierHan32 = @"org.youknowone.inputmethod.Gureum.han32";
+
+NSString *kGureumInputSourceIdentifierHan389 = @"org.youknowone.inputmethod.Gureum.han389";
 NSString *kGureumInputSourceIdentifierHan390 = @"org.youknowone.inputmethod.Gureum.han390";
-NSString *kGureumInputSourceIdentifierHan390Loose = @"org.youknowone.inputmethod.Gureum.han390loose";
-NSString *kGureumInputSourceIdentifierHan3NoShift = @"org.youknowone.inputmethod.Gureum.han3noshift";
-NSString *kGureumInputSourceIdentifierHan3Classic = @"org.youknowone.inputmethod.Gureum.han3classic";
-NSString *kGureumInputSourceIdentifierHan3Layout2 = @"org.youknowone.inputmethod.Gureum.han3layout2";
-NSString *kGureumInputSourceIdentifierHanAhnmatae = @"org.youknowone.inputmethod.Gureum.han3ahnmatae";
+NSString *kGureumInputSourceIdentifierHan391 = @"org.youknowone.inputmethod.Gureum.han391";
+NSString *kGureumInputSourceIdentifierHan391NoShift = @"org.youknowone.inputmethod.Gureum.han391noshift";
+
+NSString *kGureumInputSourceIdentifierHan3Sun90 = @"org.youknowone.inputmethod.Gureum.han3s90";
+NSString *kGureumInputSourceIdentifierHan393Classic = @"org.youknowone.inputmethod.Gureum.han393classic";
+
 NSString *kGureumInputSourceIdentifierHanRoman = @"org.youknowone.inputmethod.Gureum.hanroman";
+NSString *kGureumInputSourceIdentifierHanAhnmatae = @"org.youknowone.inputmethod.Gureum.hanahnmatae";
+NSString *kGureumInputSourceIdentifierHan3Ahnmatae = @"org.youknowone.inputmethod.Gureum.han3ahnmatae";
+
 NSString *kGureumInputSourceIdentifierHan3_2011 = @"org.youknowone.inputmethod.Gureum.han3-2011";
-NSString *kGureumInputSourceIdentifierHan3_2011Loose = @"org.youknowone.inputmethod.Gureum.han3-2011loose";
+NSString *kGureumInputSourceIdentifierHan3_2011Classic = @"org.youknowone.inputmethod.Gureum.han3-2011classic";
 NSString *kGureumInputSourceIdentifierHan3_2012 = @"org.youknowone.inputmethod.Gureum.han3-2012";
-NSString *kGureumInputSourceIdentifierHan3_2012Loose = @"org.youknowone.inputmethod.Gureum.han3-2012loose";
-NSString *kGureumInputSourceIdentifierHan3FinalNoShift = @"org.youknowone.inputmethod.Gureum.han3finalnoshift";
+NSString *kGureumInputSourceIdentifierHan3_2012Classic = @"org.youknowone.inputmethod.Gureum.han3-2012classic";
 NSString *kGureumInputSourceIdentifierHan3_2014 = @"org.youknowone.inputmethod.Gureum.han3-2014";
+NSString *kGureumInputSourceIdentifierHan3_2014Classic = @"org.youknowone.inputmethod.Gureum.han3-2014classic";
+
 NSString *kGureumInputSourceIdentifierHan3_2015 = @"org.youknowone.inputmethod.Gureum.han3-2015";
+NSString *kGureumInputSourceIdentifierHan3_2015Classic = @"org.youknowone.inputmethod.Gureum.han3-2015classic";
+NSString *kGureumInputSourceIdentifierHan3_2015M = @"org.youknowone.inputmethod.Gureum.han3-2015m";
+NSString *kGureumInputSourceIdentifierHan3_2015P = @"org.youknowone.inputmethod.Gureum.han3-2015p";
+NSString *kGureumInputSourceIdentifierHan3_2015PClassic = @"org.youknowone.inputmethod.Gureum.han3-2015pclassic";
 NSString *kGureumInputSourceIdentifierHan3_P3 = @"org.youknowone.inputmethod.Gureum.han3-p3";
+NSString *kGureumInputSourceIdentifierHan314Proposal = @"org.youknowone.inputmethod.Gureum.han314proposal";
+
+NSString *kGureumInputSourceIdentifierHan3Moa2014 = @"org.youknowone.inputmethod.Gureum.han3moa2014";
+NSString *kGureumInputSourceIdentifierHan3Moa2015 = @"org.youknowone.inputmethod.Gureum.han3moa2015";
+NSString *kGureumInputSourceIdentifierHan3Moa2016 = @"org.youknowone.inputmethod.Gureum.han3moa2016";
+
+NSString *kGureumInputSourceIdentifierHan3Sun2014 = @"org.youknowone.inputmethod.Gureum.han3s2014";
+NSString *kGureumInputSourceIdentifierHan3GimKuk38AClassic = @"org.youknowone.inputmethod.Gureum.han3k38aclassic";
+NSString *kGureumInputSourceIdentifierHan3Shin1995 = @"org.youknowone.inputmethod.Gureum.han3shin1995";
+NSString *kGureumInputSourceIdentifierHan3Shin2003 = @"org.youknowone.inputmethod.Gureum.han3shin2003";
+NSString *kGureumInputSourceIdentifierHan3Shin2012 = @"org.youknowone.inputmethod.Gureum.han3shin2012";
+NSString *kGureumInputSourceIdentifierHan3Shin2015 = @"org.youknowone.inputmethod.Gureum.han3shin2015";
+NSString *kGureumInputSourceIdentifierHan3ShinM = @"org.youknowone.inputmethod.Gureum.han3shinm";
+NSString *kGureumInputSourceIdentifierHan3ShinP = @"org.youknowone.inputmethod.Gureum.han3shinp";
+NSString *kGureumInputSourceIdentifierHan3ShinPClassic = @"org.youknowone.inputmethod.Gureum.han3shinpclassic";
 
 #import "RomanComposer.h"
 #import "HangulComposer.h"
@@ -71,24 +99,44 @@ NSDictionary *GureumInputSourceToHangulKeyboardIdentifierTable = nil;
     GureumInputSourceToHangulKeyboardIdentifierTable = [[NSDictionary alloc] initWithObjectsAndKeys:
                                                         @"", kGureumInputSourceIdentifierQwerty,
                                                         @"2", kGureumInputSourceIdentifierHan2,
+                                                        @"2noshift", kGureumInputSourceIdentifierHan2NoShift,
                                                         @"2y", kGureumInputSourceIdentifierHan2Classic,
-                                                        @"3f", kGureumInputSourceIdentifierHan3Final,
-                                                        @"3fl", kGureumInputSourceIdentifierHan3FinalLoose,
-                                                        @"39", kGureumInputSourceIdentifierHan390,
-                                                        @"39l", kGureumInputSourceIdentifierHan390Loose,
-                                                        @"3s", kGureumInputSourceIdentifierHan3NoShift,
-                                                        @"3y", kGureumInputSourceIdentifierHan3Classic,
-                                                        @"32", kGureumInputSourceIdentifierHan3Layout2,
+                                                        @"2n9256", kGureumInputSourceIdentifierHan2N9256,
+                                                        @"32", kGureumInputSourceIdentifierHan32,
+                                                        @"3-89", kGureumInputSourceIdentifierHan389,
+                                                        @"3-90", kGureumInputSourceIdentifierHan390,
+                                                        @"3-91", kGureumInputSourceIdentifierHan391,
+                                                        @"3-91-noshift", kGureumInputSourceIdentifierHan391NoShift,
+                                                        @"3sun-1990", kGureumInputSourceIdentifierHan3Sun90,
+                                                        @"3-93-yet", kGureumInputSourceIdentifierHan393Classic,
                                                         @"ro", kGureumInputSourceIdentifierHanRoman,
                                                         @"ahn", kGureumInputSourceIdentifierHanAhnmatae,
+                                                        @"3ahn", kGureumInputSourceIdentifierHan3Ahnmatae,
                                                         @"3-2011", kGureumInputSourceIdentifierHan3_2011,
-                                                        @"3-2011l", kGureumInputSourceIdentifierHan3_2011Loose,
+                                                        @"3-2011-yet", kGureumInputSourceIdentifierHan3_2011Classic,
                                                         @"3-2012", kGureumInputSourceIdentifierHan3_2012,
-                                                        @"3-2012l", kGureumInputSourceIdentifierHan3_2012Loose,
-                                                        @"3fs", kGureumInputSourceIdentifierHan3FinalNoShift,
+                                                        @"3-2012-yet", kGureumInputSourceIdentifierHan3_2012Classic,
                                                         @"3-2014", kGureumInputSourceIdentifierHan3_2014,
+                                                        @"3-2014-yet", kGureumInputSourceIdentifierHan3_2014Classic,
                                                         @"3-2015", kGureumInputSourceIdentifierHan3_2015,
-														@"3-p3", kGureumInputSourceIdentifierHan3_P3,
+                                                        @"3-2015-yet", kGureumInputSourceIdentifierHan3_2015Classic,
+                                                        @"3-2015-metal", kGureumInputSourceIdentifierHan3_2015M,
+                                                        @"3-2015-patal", kGureumInputSourceIdentifierHan3_2015P,
+                                                        @"3-2015-patal-yet", kGureumInputSourceIdentifierHan3_2015PClassic,
+                                                        @"3-p3", kGureumInputSourceIdentifierHan3_P3,
+                                                        @"3-14-proposal", kGureumInputSourceIdentifierHan314Proposal,
+                                                        @"3moa-semoe-2014", kGureumInputSourceIdentifierHan3Moa2014,
+                                                        @"3moa-semoe-2015", kGureumInputSourceIdentifierHan3Moa2015,
+                                                        @"3moa-semoe-2016", kGureumInputSourceIdentifierHan3Moa2016,
+                                                        @"3sun-2014", kGureumInputSourceIdentifierHan3Sun2014,
+                                                        @"3gimguk-38a-yet", kGureumInputSourceIdentifierHan3GimKuk38AClassic,
+                                                        @"3shin-1995", kGureumInputSourceIdentifierHan3Shin1995,
+                                                        @"3shin-2003", kGureumInputSourceIdentifierHan3Shin2003,
+                                                        @"3shin-2012", kGureumInputSourceIdentifierHan3Shin2012,
+                                                        @"3shin-2015", kGureumInputSourceIdentifierHan3Shin2015,
+                                                        @"3shin-m", kGureumInputSourceIdentifierHan3ShinM,
+                                                        @"3shin-p", kGureumInputSourceIdentifierHan3ShinP,
+                                                        @"3shin-p-yet", kGureumInputSourceIdentifierHan3ShinPClassic,
                                                         nil];
 }
 
