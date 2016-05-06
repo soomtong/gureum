@@ -50,6 +50,7 @@ NSString *kGureumInputSourceIdentifierHan3_2015Classic = @"org.youknowone.inputm
 NSString *kGureumInputSourceIdentifierHan3_2015M = @"org.youknowone.inputmethod.Gureum.han3-2015m";
 NSString *kGureumInputSourceIdentifierHan3_2015P = @"org.youknowone.inputmethod.Gureum.han3-2015p";
 NSString *kGureumInputSourceIdentifierHan3_2015PClassic = @"org.youknowone.inputmethod.Gureum.han3-2015pclassic";
+NSString *kGureumInputSourceIdentifierHan3_P2 = @"org.youknowone.inputmethod.Gureum.han3-p2";
 NSString *kGureumInputSourceIdentifierHan3_P3 = @"org.youknowone.inputmethod.Gureum.han3-p3";
 NSString *kGureumInputSourceIdentifierHan314Proposal = @"org.youknowone.inputmethod.Gureum.han314proposal";
 
@@ -123,6 +124,7 @@ NSDictionary *GureumInputSourceToHangulKeyboardIdentifierTable = nil;
                                                         @"3-2015-metal", kGureumInputSourceIdentifierHan3_2015M,
                                                         @"3-2015-patal", kGureumInputSourceIdentifierHan3_2015P,
                                                         @"3-2015-patal-yet", kGureumInputSourceIdentifierHan3_2015PClassic,
+                                                        @"3-p2", kGureumInputSourceIdentifierHan3_P2,
                                                         @"3-p3", kGureumInputSourceIdentifierHan3_P3,
                                                         @"3-14-proposal", kGureumInputSourceIdentifierHan314Proposal,
                                                         @"3moa-semoe-2014", kGureumInputSourceIdentifierHan3Moa2014,

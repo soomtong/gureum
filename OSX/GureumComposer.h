@@ -44,6 +44,7 @@ FOUNDATION_EXTERN NSString *kGureumInputSourceIdentifierHan3_2015Classic;
 FOUNDATION_EXTERN NSString *kGureumInputSourceIdentifierHan3_2015M;
 FOUNDATION_EXTERN NSString *kGureumInputSourceIdentifierHan3_2015P;
 FOUNDATION_EXTERN NSString *kGureumInputSourceIdentifierHan3_2015PClassic;
+FOUNDATION_EXTERN NSString *kGureumInputSourceIdentifierHan3_P2;
 FOUNDATION_EXTERN NSString *kGureumInputSourceIdentifierHan3_P3;
 FOUNDATION_EXTERN NSString *kGureumInputSourceIdentifierHan314Proposal;
 
