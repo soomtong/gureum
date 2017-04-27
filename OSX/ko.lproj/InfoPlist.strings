@@ -32,6 +32,7 @@ org.youknowone.inputmethod.Gureum.han314proposal = "세벌식 3-14 표준제안 
 org.youknowone.inputmethod.Gureum.han3moa2014 = "세벌식 세모이 2014";
 org.youknowone.inputmethod.Gureum.han3moa2015 = "세벌식 세모이 2015";
 org.youknowone.inputmethod.Gureum.han3moa2016 = "세벌식 세모이 2016";
+org.youknowone.inputmethod.Gureum.han3moa2017 = "세벌식 세모이 2017";
 org.youknowone.inputmethod.Gureum.han3s2014 = "세벌식 순아래 2014 (연구)";
 org.youknowone.inputmethod.Gureum.han3k38aclassic = "세벌식 김국 38A 옛한글";
 org.youknowone.inputmethod.Gureum.han3shin1995 = "신세벌식 1995";
@@ -41,6 +42,8 @@ org.youknowone.inputmethod.Gureum.han3shin2015 = "신세벌식 2015";
 org.youknowone.inputmethod.Gureum.han3shinm = "신세벌식 M";
 org.youknowone.inputmethod.Gureum.han3shinp = "신세벌식 P";
 org.youknowone.inputmethod.Gureum.han3shinpclassic = "신세벌식 P 옛한글";
+org.youknowone.inputmethod.Gureum.han3shinp2 = "신세벌식 P2";
+org.youknowone.inputmethod.Gureum.han3shinp2classic = "신세벌식 P2 옛한글";
 
 CFBundleName = "구름";
 CFBundleDisplayName = "구름 입력기";

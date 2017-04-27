@@ -57,6 +57,7 @@ NSString *kGureumInputSourceIdentifierHan314Proposal = @"org.youknowone.inputmet
 NSString *kGureumInputSourceIdentifierHan3Moa2014 = @"org.youknowone.inputmethod.Gureum.han3moa2014";
 NSString *kGureumInputSourceIdentifierHan3Moa2015 = @"org.youknowone.inputmethod.Gureum.han3moa2015";
 NSString *kGureumInputSourceIdentifierHan3Moa2016 = @"org.youknowone.inputmethod.Gureum.han3moa2016";
+NSString *kGureumInputSourceIdentifierHan3Moa2017 = @"org.youknowone.inputmethod.Gureum.han3moa2017";
 
 NSString *kGureumInputSourceIdentifierHan3Sun2014 = @"org.youknowone.inputmethod.Gureum.han3s2014";
 NSString *kGureumInputSourceIdentifierHan3GimKuk38AClassic = @"org.youknowone.inputmethod.Gureum.han3k38aclassic";
@@ -67,6 +68,8 @@ NSString *kGureumInputSourceIdentifierHan3Shin2015 = @"org.youknowone.inputmetho
 NSString *kGureumInputSourceIdentifierHan3ShinM = @"org.youknowone.inputmethod.Gureum.han3shinm";
 NSString *kGureumInputSourceIdentifierHan3ShinP = @"org.youknowone.inputmethod.Gureum.han3shinp";
 NSString *kGureumInputSourceIdentifierHan3ShinPClassic = @"org.youknowone.inputmethod.Gureum.han3shinpclassic";
+NSString *kGureumInputSourceIdentifierHan3ShinP2 = @"org.youknowone.inputmethod.Gureum.han3shinp2";
+NSString *kGureumInputSourceIdentifierHan3ShinP2Classic = @"org.youknowone.inputmethod.Gureum.han3shinp2classic";
 
 #import "RomanComposer.h"
 #import "HangulComposer.h"
@@ -130,6 +133,7 @@ NSDictionary *GureumInputSourceToHangulKeyboardIdentifierTable = nil;
                                                         @"3moa-semoe-2014", kGureumInputSourceIdentifierHan3Moa2014,
                                                         @"3moa-semoe-2015", kGureumInputSourceIdentifierHan3Moa2015,
                                                         @"3moa-semoe-2016", kGureumInputSourceIdentifierHan3Moa2016,
+                                                        @"3moa-semoe-2017", kGureumInputSourceIdentifierHan3Moa2017,
                                                         @"3sun-2014", kGureumInputSourceIdentifierHan3Sun2014,
                                                         @"3gimguk-38a-yet", kGureumInputSourceIdentifierHan3GimKuk38AClassic,
                                                         @"3shin-1995", kGureumInputSourceIdentifierHan3Shin1995,
@@ -139,6 +143,8 @@ NSDictionary *GureumInputSourceToHangulKeyboardIdentifierTable = nil;
                                                         @"3shin-m", kGureumInputSourceIdentifierHan3ShinM,
                                                         @"3shin-p", kGureumInputSourceIdentifierHan3ShinP,
                                                         @"3shin-p-yet", kGureumInputSourceIdentifierHan3ShinPClassic,
+                                                        @"3shin-p2", kGureumInputSourceIdentifierHan3ShinP2,
+                                                        @"3shin-p2-yet", kGureumInputSourceIdentifierHan3ShinP2Classic,
                                                         nil];
 }
 

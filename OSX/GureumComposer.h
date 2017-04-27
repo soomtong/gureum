@@ -51,6 +51,7 @@ FOUNDATION_EXTERN NSString *kGureumInputSourceIdentifierHan314Proposal;
 FOUNDATION_EXTERN NSString *kGureumInputSourceIdentifierHan3Moa2014;
 FOUNDATION_EXTERN NSString *kGureumInputSourceIdentifierHan3Moa2015;
 FOUNDATION_EXTERN NSString *kGureumInputSourceIdentifierHan3Moa2016;
+FOUNDATION_EXTERN NSString *kGureumInputSourceIdentifierHan3Moa2017;
 
 FOUNDATION_EXTERN NSString *kGureumInputSourceIdentifierHan3Sun2014;
 FOUNDATION_EXTERN NSString *kGureumInputSourceIdentifierHan3GimKuk38AClassic;
@@ -61,6 +62,8 @@ FOUNDATION_EXTERN NSString *kGureumInputSourceIdentifierHan3Shin2015;
 FOUNDATION_EXTERN NSString *kGureumInputSourceIdentifierHan3ShinM;
 FOUNDATION_EXTERN NSString *kGureumInputSourceIdentifierHan3ShinP;
 FOUNDATION_EXTERN NSString *kGureumInputSourceIdentifierHan3ShinPClassic;
+FOUNDATION_EXTERN NSString *kGureumInputSourceIdentifierHan3ShinP2;
+FOUNDATION_EXTERN NSString *kGureumInputSourceIdentifierHan3ShinP2Classic;
 
 @class RomanComposer;
 @class HangulComposer;

@@ -71,6 +71,7 @@ static NSArray *GureumPreferencesHangulSyllablePresentations = nil;
                                       @"org.youknowone.inputmethod.Gureum.han3moa2014",
                                       @"org.youknowone.inputmethod.Gureum.han3moa2015",
                                       @"org.youknowone.inputmethod.Gureum.han3moa2016",
+                                      @"org.youknowone.inputmethod.Gureum.han3moa2017",
                                       @"org.youknowone.inputmethod.Gureum.han3s2014",
                                       @"org.youknowone.inputmethod.Gureum.han3k38aclassic",
                                       @"org.youknowone.inputmethod.Gureum.han3shin1995",
@@ -80,6 +81,8 @@ static NSArray *GureumPreferencesHangulSyllablePresentations = nil;
                                       @"org.youknowone.inputmethod.Gureum.han3shinm",
                                       @"org.youknowone.inputmethod.Gureum.han3shinp",
                                       @"org.youknowone.inputmethod.Gureum.han3shinpclassic",
+                                      @"org.youknowone.inputmethod.Gureum.han3shinp2",
+                                      @"org.youknowone.inputmethod.Gureum.han3shinp2classic",
                                       nil];
 
     NSDictionary *info = [[NSBundle mainBundle] localizedInfoDictionary];
