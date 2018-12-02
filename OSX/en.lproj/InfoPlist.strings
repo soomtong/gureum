@@ -17,6 +17,10 @@ org.youknowone.inputmethod.Gureum.han3-2011 = "Han 3set 2011";
 org.youknowone.inputmethod.Gureum.han3-2012 = "Han 3set 2012";
 org.youknowone.inputmethod.Gureum.han3-2014 = "Han 3set Moachigi 2015";
 org.youknowone.inputmethod.Gureum.han3-2015 = "Han 3set 2015";
+org.youknowone.inputmethod.Gureum.han3moa-2014 = "Han 3set moa 2014";
+org.youknowone.inputmethod.Gureum.han3moa-2015 = "Han 3set moa 2015";
+org.youknowone.inputmethod.Gureum.han3moa-2016 = "Han 3set moa 2016";
+org.youknowone.inputmethod.Gureum.han3moa-2017 = "Han 3set moa 2017";
 
 CFBundleName = "Gureum";
 CFBundleDisplayName = "Gureum Input Method";

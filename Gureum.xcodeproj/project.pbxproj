@@ -22,6 +22,8 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		261180E421B43CC000B66773 /* Hangul.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A9D3B621B404EC00A78F3F /* Hangul.framework */; };
+		261180E521B43CD200B66773 /* Hangul.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 26A9D3B621B404EC00A78F3F /* Hangul.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		38098F0A215A3DB30001F159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38098F09215A3DB30001F159 /* Assets.xcassets */; };
 		381228DB208D869B00BB7D5D /* GureumConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C2AE4C208795E700FE211A /* GureumConfiguration.swift */; };
 		38162DF5141263270077AA2D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38863C63140E64EB00A8ED76 /* Cocoa.framework */; };
@@ -71,7 +73,6 @@
 		388E2A611469249700ADBDA5 /* Hangul.strings in Resources */ = {isa = PBXBuildFile; fileRef = 388E2A601469249700ADBDA5 /* Hangul.strings */; };
 		389289BD217B331B00F94F2C /* CIMComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389289BC217B331B00F94F2C /* CIMComposer.swift */; };
 		38946A6B19F4F3FD00920E09 /* InputMethodKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38946A6A19F4F3FD00920E09 /* InputMethodKit.framework */; };
-		389A39ED142356E900A2ED88 /* Hangul.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 389A387D1423477F00A2ED88 /* Hangul.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		38AC8D4A217C4EDA00E4B332 /* CIMInputReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AC8D49217C4EDA00E4B332 /* CIMInputReceiver.swift */; };
 		38BFE80218B45419004B2B2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38BFE80018B45419004B2B2E /* InfoPlist.strings */; };
 		38BFE80418B45419004B2B2E /* GureumObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38BFE80318B45419004B2B2E /* GureumObjCTests.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -80,7 +81,6 @@
 		38D3E42B21213E9700751191 /* HangulComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D3E42A21213E9700751191 /* HangulComposer.swift */; };
 		38EE977619FFD65600AD19B8 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38EE977519FFD65600AD19B8 /* Carbon.framework */; };
 		38EE977B1A00148D00AD19B8 /* TISInputSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 38EE977A1A00148D00AD19B8 /* TISInputSource.m */; };
-		38F85936215A926100CD80AE /* Hangul.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389A387D1423477F00A2ED88 /* Hangul.framework */; };
 		38F85961215BD27000CD80AE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F85960215BD27000CD80AE /* main.swift */; };
 		38F85969215BF4BA00CD80AE /* Preferences.prefPane in Resources */ = {isa = PBXBuildFile; fileRef = 382E68641A1314D900031D1D /* Preferences.prefPane */; };
 		38FA21DD14230E2E00444D67 /* CIMInputController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38863C96140E669000A8ED76 /* CIMInputController.m */; };
@@ -107,12 +107,33 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		382707F11F57475400658B6B /* PBXContainerItemProxy */ = {
+		26A9D3B521B404EC00A78F3F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 38FA220114233FD900444D67 /* Hangul.xcodeproj */;
+			containerPortal = 26A9D3AF21B404EB00A78F3F /* Hangul.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 38F858E3215A8B2200CD80AE;
+			remoteInfo = Hangul;
+		};
+		26A9D3B721B404EC00A78F3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26A9D3AF21B404EB00A78F3F /* Hangul.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3890A8BE1423245500067337;
+			remoteInfo = libhangul;
+		};
+		26A9D3B921B404EC00A78F3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26A9D3AF21B404EB00A78F3F /* Hangul.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 382707E41F573F1D00658B6B;
 			remoteInfo = HangulTests;
+		};
+		26A9D3BD21B405C700A78F3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26A9D3AF21B404EB00A78F3F /* Hangul.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 38F858E2215A8B2200CD80AE;
+			remoteInfo = Hangul;
 		};
 		382AF2C92156284200701F90 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -134,27 +155,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 382E68631A1314D900031D1D;
 			remoteInfo = Preferences;
-		};
-		389A387C1423477F00A2ED88 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 38FA220114233FD900444D67 /* Hangul.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 38FA21EC1423219E00444D67;
-			remoteInfo = Hangul;
-		};
-		389A387E1423477F00A2ED88 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 38FA220114233FD900444D67 /* Hangul.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3890A8BE1423245500067337;
-			remoteInfo = hangul;
-		};
-		389A398314234B5600A2ED88 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 38FA220114233FD900444D67 /* Hangul.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 38F858E2215A8B2200CD80AE;
-			remoteInfo = Hangul;
 		};
 		38BFE80618B45419004B2B2E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -231,7 +231,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				389A39ED142356E900A2ED88 /* Hangul.framework in Copy Frameworks */,
+				261180E521B43CD200B66773 /* Hangul.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +242,7 @@
 		0432504D10DBDF90212C4042 /* Pods-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-OSX/Pods-OSX.release.xcconfig"; sourceTree = "<group>"; };
 		057B3CD9EB092349BD540E8B /* libPods-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		236921790DBF83DCE3CCBB11 /* Pods-OSXTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSXTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OSXTests/Pods-OSXTests.release.xcconfig"; sourceTree = "<group>"; };
+		26A9D3AF21B404EB00A78F3F /* Hangul.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Hangul.xcodeproj; path = "libhangul-objc/Hangul.xcodeproj"; sourceTree = SOURCE_ROOT; };
 		32842EC3B8B92F2C1EFA62F6 /* Pods-OSXTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSXTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OSXTests/Pods-OSXTests.debug.xcconfig"; sourceTree = "<group>"; };
 		38098F09215A3DB30001F159 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38162D7B140F64B70077AA2D /* HanjaComposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HanjaComposer.swift; sourceTree = "<group>"; };
@@ -325,7 +326,6 @@
 		38F220A3142C79710064FAC3 /* libhangul_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = libhangul_logo.png; path = Icons/libhangul_logo.png; sourceTree = "<group>"; };
 		38F85960215BD27000CD80AE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		38F85964215BEA3800CD80AE /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = System/Library/Frameworks/PreferencePanes.framework; sourceTree = SDKROOT; };
-		38FA220114233FD900444D67 /* Hangul.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Hangul.xcodeproj; path = "../libhangul-objc/Hangul.xcodeproj"; sourceTree = "<group>"; };
 		44C08D5450D78FCDA4226ECE /* Pods_Preferences.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Preferences.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B185969033D59E37DA605FD /* Pods-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OSX/Pods-OSX.debug.xcconfig"; sourceTree = "<group>"; };
 		4BBBDD5D65FE92A8E230117D /* Pods-PreferencesApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreferencesApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-PreferencesApp/Pods-PreferencesApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -357,12 +357,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				261180E421B43CC000B66773 /* Hangul.framework in Frameworks */,
 				38EE977619FFD65600AD19B8 /* Carbon.framework in Frameworks */,
 				38531F441B0E7E7C00E2C16D /* SystemConfiguration.framework in Frameworks */,
 				38946A6B19F4F3FD00920E09 /* InputMethodKit.framework in Frameworks */,
 				38162DF5141263270077AA2D /* Cocoa.framework in Frameworks */,
 				38531F431B0E7E7C00E2C16D /* Security.framework in Frameworks */,
-				38F85936215A926100CD80AE /* Hangul.framework in Frameworks */,
 				DAA59CC398282039EE3F4265 /* libPods-OSX.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,13 +409,23 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		26A9D3B021B404EB00A78F3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26A9D3B621B404EC00A78F3F /* Hangul.framework */,
+				26A9D3B821B404EC00A78F3F /* libhangul.a */,
+				26A9D3BA21B404EC00A78F3F /* HangulTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		38162DF6141263270077AA2D /* OSX */ = {
 			isa = PBXGroup;
 			children = (
+				26A9D3AF21B404EB00A78F3F /* Hangul.xcodeproj */,
 				38531F3D1B0E7E7C00E2C16D /* Security.framework */,
 				38531F3E1B0E7E7C00E2C16D /* SystemConfiguration.framework */,
 				38C253EA19F4EE320020FE92 /* Gureum.entitlements */,
-				38FA220114233FD900444D67 /* Hangul.xcodeproj */,
 				388FD02A175EDB5500469B76 /* Version.xcconfig */,
 				381DB19A21678B74005A37B9 /* Debug.swift */,
 				38C2AE4C208795E700FE211A /* GureumConfiguration.swift */,
@@ -622,16 +632,6 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		389A38781423477F00A2ED88 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				389A387D1423477F00A2ED88 /* Hangul.framework */,
-				389A387F1423477F00A2ED88 /* libhangul.a */,
-				382707F21F57475400658B6B /* HangulTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		38BFE7FD18B45419004B2B2E /* GureumTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -695,8 +695,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				26A9D3BE21B405C700A78F3F /* PBXTargetDependency */,
 				382AF2CA2156284200701F90 /* PBXTargetDependency */,
-				389A398414234B5600A2ED88 /* PBXTargetDependency */,
 				382E68751A13153300031D1D /* PBXTargetDependency */,
 			);
 			name = OSX;
@@ -812,7 +812,7 @@
 						};
 					};
 					38BFE7F918B45419004B2B2E = {
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 1010;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.Mac = {
 								enabled = 1;
@@ -850,8 +850,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 389A38781423477F00A2ED88 /* Products */;
-					ProjectRef = 38FA220114233FD900444D67 /* Hangul.xcodeproj */;
+					ProductGroup = 26A9D3B021B404EB00A78F3F /* Products */;
+					ProjectRef = 26A9D3AF21B404EB00A78F3F /* Hangul.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -866,25 +866,25 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		382707F21F57475400658B6B /* HangulTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = HangulTests.xctest;
-			remoteRef = 382707F11F57475400658B6B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		389A387D1423477F00A2ED88 /* Hangul.framework */ = {
+		26A9D3B621B404EC00A78F3F /* Hangul.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Hangul.framework;
-			remoteRef = 389A387C1423477F00A2ED88 /* PBXContainerItemProxy */;
+			remoteRef = 26A9D3B521B404EC00A78F3F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		389A387F1423477F00A2ED88 /* libhangul.a */ = {
+		26A9D3B821B404EC00A78F3F /* libhangul.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libhangul.a;
-			remoteRef = 389A387E1423477F00A2ED88 /* PBXContainerItemProxy */;
+			remoteRef = 26A9D3B721B404EC00A78F3F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		26A9D3BA21B404EC00A78F3F /* HangulTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = HangulTests.xctest;
+			remoteRef = 26A9D3B921B404EC00A78F3F /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -1158,6 +1158,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		26A9D3BE21B405C700A78F3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Hangul;
+			targetProxy = 26A9D3BD21B405C700A78F3F /* PBXContainerItemProxy */;
+		};
 		382AF2CA2156284200701F90 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 38E9024821344637005DF76A /* ScriptSupport */;
@@ -1172,11 +1177,6 @@
 			isa = PBXTargetDependency;
 			target = 382E68631A1314D900031D1D /* Preferences */;
 			targetProxy = 382E68741A13153300031D1D /* PBXContainerItemProxy */;
-		};
-		389A398414234B5600A2ED88 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Hangul;
-			targetProxy = 389A398314234B5600A2ED88 /* PBXContainerItemProxy */;
 		};
 		38BFE80718B45419004B2B2E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1500,7 +1500,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.youknowone.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = GureumTests/Bridge.h;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -1533,7 +1533,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.youknowone.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = GureumTests/Bridge.h;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};

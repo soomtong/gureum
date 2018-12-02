@@ -31,7 +31,11 @@ public enum GureumInputSourceIdentifier: String {
     case han3_2012 = "org.youknowone.inputmethod.Gureum.han3-2012"
     case han3_2014 = "org.youknowone.inputmethod.Gureum.han3-2014"
     case han3_2015 = "org.youknowone.inputmethod.Gureum.han3-2015"
-    
+    case han3moa_2014 = "org.youknowone.inputmethod.Gureum.han3moa-2014"
+    case han3moa_2015 = "org.youknowone.inputmethod.Gureum.han3moa-2015"
+    case han3moa_2016 = "org.youknowone.inputmethod.Gureum.han3moa-2016"
+    case han3moa_2017 = "org.youknowone.inputmethod.Gureum.han3moa-2017"
+
     var keyboardIdentifier: String {
         guard let value = GureumInputSourceToHangulKeyboardIdentifierTable[self] else {
             assert(false)
@@ -58,6 +62,10 @@ let GureumInputSourceToHangulKeyboardIdentifierTable: [GureumInputSourceIdentifi
     .han3_2012 : "3-2012",
     .han3_2014 : "3-2014",
     .han3_2015 : "3-2015",
+    .han3moa_2014 : "3moa-semoe-2014",
+    .han3moa_2015 : "3moa-semoe-2015",
+    .han3moa_2016 : "3moa-semoe-2016",
+    .han3moa_2017 : "3moa-semoe-2017",
 ]
 
 @objcMembers public class GureumComposer: CIMComposer {
